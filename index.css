@@ -90,11 +90,26 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 2rem 4rem;
+  }
   .error-404-container {
     flex-direction: column;
+    align-items: center;
   }
   .content-404-container {
-    width: 100%;
+    width: 90%;
   }
+  .info-text-404 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /*Empty query*/
+}
+
+@media screen and (max-width: 360px) {
+  /*Empty query*/
 }
